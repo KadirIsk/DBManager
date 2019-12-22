@@ -32,3 +32,9 @@ bool ValidationService::isNull(std::fstream* file)
 	if (file == NULL)	return true;
 	return false;
 }
+
+bool ValidationService::isNull(Property* property)
+{
+	if (property == nullptr)	return true;
+	return false;
+}

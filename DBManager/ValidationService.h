@@ -1,6 +1,8 @@
 #pragma once
 #include <ctime>
 #include "Unit.h"
+#include "Property.h"
+
 class ValidationService
 {
 public:
@@ -9,5 +11,6 @@ public:
 	static bool isEmpty(std::string*);
 	static bool isNull(std::string*);
 	static bool isNull(std::fstream*);
+	static bool isNull(Property*);
 };
 
