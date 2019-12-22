@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{4a59d083-f1e5-4c83-85b6-309366ed5891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{9fd71de5-b19c-4397-b442-eb4e721dd784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{0e09a825-a392-48fc-a203-53efb0ff0257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface">
+      <UniqueIdentifier>{645c3847-520c-4f33-af32-de62a5c132e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Service">
+      <UniqueIdentifier>{42be4dea-06e6-408c-93ab-15b9b3c46fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{3b49fb9d-8a12-4a7e-b85c-bcf7b1ae6dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Service">
+      <UniqueIdentifier>{1bdf21d7-7973-450b-84f3-8d2b94cce084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processor">
+      <UniqueIdentifier>{a468c54e-d539-4279-882a-29c5f5bf5941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Base">
+      <UniqueIdentifier>{910df8ad-3741-4f6b-928d-2d5078e6d72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exception">
+      <UniqueIdentifier>{e5bb6573-ad0a-4939-bce4-b7c5fde458df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exception">
+      <UniqueIdentifier>{dd093415-6e0d-44f4-9e04-5d21f140d3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processor">
+      <UniqueIdentifier>{a3b02443-1d2d-47b6-9255-31380f018522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Base">
+      <UniqueIdentifier>{c682aff1-7933-4fe4-b777-04660ebf8749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{349f5499-6316-4721-bc7b-efd9b37daf66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{f3e50cbc-d7b4-477f-842e-8d9cb03e9f7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitInt.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitDouble.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitString.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTime.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Row.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Column.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertionService.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="FileService.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryProcessor.cpp">
+      <Filter>Source Files\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryException.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryParser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="SorterService.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidationService.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseUnit.cpp">
+      <Filter>Source Files\Model\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\Model\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemaManager.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Property.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyService.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Column.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Row.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitDouble.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitInt.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitString.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTime.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SorterService.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidationService.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryParser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryProcessor.h">
+      <Filter>Header Files\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="FileService.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertionService.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseUnit.h">
+      <Filter>Header Files\Model\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\Model\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryException.h">
+      <Filter>Header Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="SchemaManager.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="IWritable.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyService.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dbmanager-properties.txt" />
+  </ItemGroup>
+</Project>
