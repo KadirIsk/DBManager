@@ -6,7 +6,7 @@
 #include "FileService.h"
 #include "PropertyService.h"
 
-void Utility::setAppDir(std::string* dbDir)
+void Utility::setSystemProperties(SystemProperties* systemProperties)
 {
 	std::string propFileDir("C:/Users/kadir.isik/Desktop/Desktop/VS/DBManager/DBManager/dbmanager-properties.txt");
 	auto fileName = new std::string(propFileDir);
@@ -22,12 +22,8 @@ void Utility::setAppDir(std::string* dbDir)
 				lines.push_back(line);
 			}
 		}
-		std::string* propName = new std::string("db_dir");
 		auto properties = PropertyService::parse(lines, delimiter);
-		auto property = PropertyService::findProperty(properties, propName);
-		if (!ValidationService::isNull(property)) {
-			*dbDir = *property->getValue();
-		}
+		SystemProperties::setSystemProperties(properties);
 	}
 
 	FileService::closeFile(propertyFile);
